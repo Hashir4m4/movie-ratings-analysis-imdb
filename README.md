@@ -32,3 +32,14 @@ movie-ratings-analysis-imdb/
 │ └── Movie_Ratings_Project_Report.pdf
 ├── README.md
 └── LICENSE
+
+git clone https://github.com/Hashir4m4/movie-ratings-analysis-imdb.git
+cd movie-ratings-analysis-imdb
+
+pip install pandas numpy matplotlib seaborn streamlit scikit-learn
+
+jupyter notebook notebook/eda_final.ipynb
+
+cd app
+streamlit run streamlit_app.py
+
